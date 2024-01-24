@@ -1,0 +1,50 @@
+body{
+    font-family: "Open Sans", sans-serif /*Preferred font is Open-sans, for older browsers that are outdated, use the fallback sans-serif font if Open Sans is not available*/
+}
+
+h1, h2, h3 {
+    font-family: "Lobster", cursive;
+}
+
+h2 {
+    color:3046C5;
+}
+
+
+h3 {
+    padding: 30px;
+    background-image: linear-gradient(to right, #5637DD, #3046C5, #60106B); /*Background image will have a linear gradient where it phases it's way from left to right through the designated colors*/
+    color:white;
+}
+
+
+header h2 {
+    color:#CEC8FF
+}
+
+.bg-info{
+    background-image: none;
+    background-color:teal;
+}
+
+footer {
+    background-image: linear-gradient(#CEC8FF, white);
+    padding: 20px 0;
+}
+
+.row-content{
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+
+}
+
+.navbar{
+    background-color: #901CAD;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
